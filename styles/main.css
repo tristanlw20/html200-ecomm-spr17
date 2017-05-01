@@ -13,11 +13,35 @@ p {
 img {
   max-height: 20rem;
 }
+nav{
+  background-color:blue;
+}
+li a, li i{
+  font-weight: bold;
+  color:white;
+}
+nav i{
+  order:1;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.item-container{
+  display:flex;
+  flex-wrap: wrap;
+}
 
 /***************** NAV *****************/
 
 nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color:red;
+}
+nav i:hover {
+  text-decoration: none;
+  color:red;
 }
 
 /**************** HERO *****************/
@@ -28,6 +52,9 @@ header img {
 
 h1 .logo-w {
   font-size: 3.5rem;
+}
+h1 span{
+  color:blue;
 }
 
 /**************** ASIDE ****************/
@@ -58,4 +85,8 @@ h3 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
+}
+.item-box{
+  border: 1px black solid;
+  
 }
