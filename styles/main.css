@@ -11,30 +11,16 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+  width:40%;
 }
-nav{
-  background-color:blue;
-}
-li a, li i{
-  font-weight: bold;
-  color:white;
-}
-nav i{
-  order:1;
-}
+
+
+/***************** NAV *****************/
 nav ul{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
-.item-container{
-  display:flex;
-  flex-wrap: wrap;
-}
-
-/***************** NAV *****************/
-
 nav a:hover {
   text-decoration: none;
   color:red;
@@ -43,20 +29,31 @@ nav i:hover {
   text-decoration: none;
   color:red;
 }
+nav{
+  background-color:#0066cc;
+  padding:1rem 0px 0.25rem 0px;
+}
+li a, li i{
+  font-weight: bold;
+  color:white;
+}
 
 /**************** HERO *****************/
 
 header img {
-  max-height: 6rem;
+  max-height: 10rem;
+  width: 85%
 }
 
 h1 .logo-w {
   font-size: 3.5rem;
 }
 h1 span{
-  color:blue;
+  color:#0066cc;
 }
-
+h1 {
+  font-color:#0066cc;
+}
 /**************** ASIDE ****************/
 
 input[type="submit"] {
@@ -66,6 +63,12 @@ input[type="submit"] {
   border-radius: 5px;
   font-size: .75rem;
   color: white;
+}
+input[type="email"]{
+  max-width:16rem;
+}
+aside{
+  padding-top:8rem;
 }
 
 /*********** PRODUCTS SECTION ***********/
@@ -86,7 +89,10 @@ h3 {
   text-align: center;
   color: #2d2d2d;
 }
+.item-container{
+  display:flex;
+  flex-wrap: wrap;
+}
 .item-box{
   border: 1px black solid;
-  
 }
