@@ -48,4 +48,9 @@ var products = [
     "imageTitle": "twill.jpg"
   }
 ]
+function emailConfirm() {
+  var userEmail = document.getElementsByName("email")[0];
+  console.log("Thanks for signing up for our mailing list, " + userEmail.value +"!");
+  return false;
+}
 
