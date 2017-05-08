@@ -11,7 +11,7 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  width:40%;
+  max-width: 100%;
 }
 
 
@@ -40,10 +40,10 @@ li a, li i{
 
 /**************** HERO *****************/
 
-header img {
+/*header img {
   max-height: 10rem;
   width: 85%
-}
+}*/
 
 h1 .logo-w {
   font-size: 3.5rem;
@@ -70,9 +70,9 @@ aside{
 
 /*********** PRODUCTS SECTION ***********/
 
-section {
+/*section {
   padding: 0 .75rem;
-}
+}*/
 
 h2 {
   padding-top: 1.5rem;
