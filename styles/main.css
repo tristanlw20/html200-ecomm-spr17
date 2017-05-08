@@ -37,6 +37,8 @@ nav{
 li a, li i{
   font-weight: bold;
   color:white;
+  font-size: 2rem;
+
 }
 
 /**************** HERO *****************/
@@ -62,9 +64,9 @@ input[type="submit"] {
   font-size: .75rem;
   color: white;
 }
-input[type="email"]{
+/*input[type="email"]{
   max-width:16rem;
-}
+}*/
 aside{
   padding-top:8rem;
 }
@@ -83,6 +85,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Love Ya Like A Sister', cursive;
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
@@ -92,5 +95,5 @@ h3 {
   flex-wrap: wrap;
 }
 .item-box{
-  border: 1px black solid;
+  /*border: 1px black solid;*/
 }
