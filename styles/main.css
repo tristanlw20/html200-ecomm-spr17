@@ -40,6 +40,18 @@ li a, li i{
   font-size: 2rem;
 
 }
+@media (max-width:991px){
+  nav {
+    background-color:white;
+  }
+  li a, li i{
+    color:black;
+  }
+  body{
+    width:50%;
+    margin:auto;
+  }
+}
 
 /**************** HERO *****************/
 
