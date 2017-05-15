@@ -54,3 +54,22 @@ function emailConfirm() {
   event.preventDefault();
 }
 
+var productCart = [];
+
+function addToCart(item){
+  event.preventDefault();
+  productCart.push(item);
+  console.log(productCart.length);
+}
+
+function removeFromCart(item){
+  event.preventDefault();
+  var removeIndex = productCart.indexOf(item);
+  if (removeIndex==-1){
+    alert("You do not have that product in your cart!");
+  } else{
+    productCart.splice(removeIndex,1);
+  }
+  console.log(productCart.length);
+}
+

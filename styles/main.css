@@ -84,6 +84,7 @@ h2 {
   color: #2d2d2d;
 }
 
+
 h3 {
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 2rem;
@@ -93,6 +94,9 @@ h3 {
 .item-container{
   display:flex;
   flex-wrap: wrap;
+}
+.cartButton{
+  width:100%;
 }
 .item-box{
   /*border: 1px black solid;*/
