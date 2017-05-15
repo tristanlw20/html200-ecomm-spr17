@@ -54,6 +54,9 @@ h1 .logo-w {
 h1 span{
   color:#0066cc;
 }
+h1{
+  color:#0066cc;
+}
 /**************** ASIDE ****************/
 
 input[type="submit"] {
@@ -79,7 +82,7 @@ aside{
 
 h2 {
   padding-top: 1.5rem;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   color: #2d2d2d;
   font-family: 'Love Ya Like A Sister', cursive;
@@ -111,5 +114,29 @@ h3 {
   }
   h3{
     font-size: 3rem;
+  }
+  button{
+    font-size: 2rem;
+  }
+  h1, h1 span{
+    color:navy;
+  }
+  nav, input[type="submit"]{
+    font-size:2rem;
+    background-color: navy;
+  }
+  header{
+    align-items: center;
+  }
+  .logo-name{
+    margin:auto;
+    max-width: 75%;
+    text-align: center;
+  }
+  .catimg{
+    display:none;
+  }
+  aside{
+    padding-top:5px;
   }
 }
