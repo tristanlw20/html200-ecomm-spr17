@@ -40,12 +40,6 @@ li a, li i{
   font-size: 2rem;
 
 }
-@media (max-width:991px){
-  body{
-    width:50%;
-    margin:auto;
-  }
-}
 
 /**************** HERO *****************/
 
@@ -88,11 +82,11 @@ h2 {
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
+  font-family: 'Love Ya Like A Sister', cursive;
 }
 
 
 h3 {
-  font-family: 'Love Ya Like A Sister', cursive;
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
@@ -106,4 +100,16 @@ h3 {
 }
 .item-box{
   /*border: 1px black solid;*/
+}
+
+@media (max-width:991px){
+  p{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 4rem;
+  }
+  h3{
+    font-size: 5rem;
+  }
 }
