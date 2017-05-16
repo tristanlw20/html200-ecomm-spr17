@@ -34,7 +34,7 @@ nav{
   background-color:#0066cc;
   padding:1rem 0px 0.25rem 0px;
 }
-li a, li i{
+li a, li i, b{
   font-weight: bold;
   color:white;
   font-size: 2rem;
@@ -43,19 +43,10 @@ li a, li i{
 
 /**************** HERO *****************/
 
-/*header img {
-  max-height: 10rem;
-  width: 85%
-}*/
-
-h1 .logo-w {
-  font-size: 3.5rem;
-}
-h1 span{
-  color:#0066cc;
-}
 h1{
   color:#0066cc;
+  font-family: 'Ravi Prakash', cursive;
+  font-size: 8rem;
 }
 /**************** ASIDE ****************/
 
@@ -64,12 +55,12 @@ input[type="submit"] {
   background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
   border-radius: 5px;
-  font-size: .75rem;
+  font-size: 1rem;
   color: white;
 }
-/*input[type="email"]{
-  max-width:16rem;
-}*/
+label{
+  font-size: 1.5rem;
+}
 aside{
   padding-top:8rem;
 }
