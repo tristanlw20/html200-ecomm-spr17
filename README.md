@@ -70,6 +70,6 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing 
--All code was thoroughly tested locally before being pushed.
--All updates were viewed on both desktop and mobiel devices.
--Code changes were made via a step by step approcach (i.e. create a basic function, ensure overall action si taking place, then add specifics such as array or string elements.
+- All code was thoroughly tested locally before being pushed.
+- All updates were viewed on both desktop and mobiel devices.
+- Code changes were made via a step by step approcach (i.e. create a basic function, ensure overall action si taking place, then add specifics such as array or string elements.
