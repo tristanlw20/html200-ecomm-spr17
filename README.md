@@ -71,5 +71,7 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing 
 - All code was thoroughly tested locally before being pushed.
-- All updates were viewed on both desktop and mobiel devices.
+- HTML and CSS were checked using the W3C validator tools.
+- All updates were viewed on both desktop and mobile devices.
+- Various browsers were used to test the live site.
 - Code changes were made via a step by step approcach (i.e. create a basic function, ensure overall action is taking place, then add specifics such as array or string elements.
