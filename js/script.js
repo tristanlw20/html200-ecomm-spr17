@@ -58,7 +58,7 @@ var productCart = [];
 
 function addToCart(item){
   productCart.push(item);
-  console.log(productCart.length);
+  // console.log(productCart.length);
   document.getElementById("cartCount").innerHTML=productCart.length;
   return productCart;
 }
@@ -70,7 +70,7 @@ function removeFromCart(item){
   } else{
     productCart.splice(removeIndex,1);
   }
-  console.log(productCart.length);
+  // console.log(productCart.length);
   document.getElementById("cartCount").innerHTML=productCart.length;
   return productCart;
 }
